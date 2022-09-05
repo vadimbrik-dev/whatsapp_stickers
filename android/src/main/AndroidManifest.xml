@@ -3,9 +3,7 @@
     package="dev.applicazza.flutter.plugins.whatsapp_stickers">
     <application
         android:name="io.flutter.app.FlutterApplication"
-        tools:ignore="GoogleAppIndexingWarning"
-        android:allowBackup="false"
-        android:fullBackupContent="false">
+        tools:ignore="GoogleAppIndexingWarning">
 
         <provider
             android:name=".StickerContentProvider"
